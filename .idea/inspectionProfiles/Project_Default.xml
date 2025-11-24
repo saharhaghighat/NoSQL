@@ -1,0 +1,72 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="97" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="Django" />
+          <option value="djangorestframework" />
+          <option value="django-cors-headers" />
+          <option value="django-oauth-toolkit" />
+          <option value="django-role-permissions" />
+          <option value="celery" />
+          <option value="flower" />
+          <option value="rq" />
+          <option value="rq-scheduler" />
+          <option value="django-rq" />
+          <option value="drf-yasg" />
+          <option value="elasticsearch" />
+          <option value="elasticsearch-dsl" />
+          <option value="kavenegar" />
+          <option value="firebase-admin" />
+          <option value="cryptography" />
+          <option value="pycryptodome" />
+          <option value="dateutils" />
+          <option value="hazm" />
+          <option value="humanize" />
+          <option value="python-dateutil" />
+          <option value="ua-parser" />
+          <option value="Unidecode" />
+          <option value="PyPDF2" />
+          <option value="mongoengine" />
+          <option value="mongoengine-goodjson" />
+          <option value="pymongo" />
+          <option value="django-rest-framework-mongoengine" />
+          <option value="mysqlclient" />
+          <option value="psycopg2-binary" />
+          <option value="minio" />
+          <option value="django-redis" />
+          <option value="gunicorn" />
+          <option value="openpyxl" />
+          <option value="xlwt" />
+          <option value="pdfkit" />
+          <option value="python-barcode" />
+          <option value="Pillow" />
+          <option value="pyDes" />
+          <option value="xmlsec" />
+          <option value="zeep" />
+          <option value="requests-pkcs12" />
+          <option value="pytlv" />
+          <option value="zibal-zeep" />
+          <option value="python-logstash" />
+          <option value="numpy" />
+          <option value="djangorestframework-camel-case" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
