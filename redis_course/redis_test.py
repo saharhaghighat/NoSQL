@@ -222,3 +222,26 @@ client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 # print(client.zcard("grades"))
 
 # print(client.zcount("grades", 800, 1000))
+
+
+# Geospatial Data
+
+# client.geoadd("cities",(52.44,5.6666,"Tehran"))
+# client.geoadd("cities",(32.659,24.5436,"Shiraz"))
+# client.geoadd("cities",(93.7,34.5096,"Melbourne"))
+# client.geoadd("cities",(39.7,81.45,"New York"))
+
+
+# print(client.geopos("cities", "Shiraz", "Melbourne"))
+
+# print(client.geodist("cities", "Melbourne", "Tehran", "km"))
+# print(client.geodist("cities", "Shiraz", "Tehran", "km"))
+# print(client.geodist("cities", "Shiraz", "New York", "km"))
+
+# print(client.georadius("cities", 50,5,3000,"km",withdist=True, withcoord=True))
+
+# print(client.georadiusbymember("cities", "Shiraz", 3000,"km",withdist=True,withcoord=True))
+
+# print(client.geohash("cities", "Tehran"))
+
+# client.zrem("cities", "Tehran")
