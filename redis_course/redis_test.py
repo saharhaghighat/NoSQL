@@ -1,3 +1,5 @@
+import time
+
 import redis
 client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 
@@ -175,4 +177,48 @@ client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 # print(f"set_diff: {set_diff}")
 
 # client.sunionstore('allbands', 'newbands', 'bands')
-client.smove('newbands', 'bands', "radiohead")
+# client.smove('newbands', 'bands', "radiohead")
+
+# ------------------------------------------------------------
+
+
+# Sorted Sets
+
+# result = client.zadd("grades", {"mohammad": 50})
+# print(result)
+# increased_result = client.zincrby("grades", 100, "mohammad")
+# print(increased_result)
+
+# client.zadd("grades", {"SAHAR": 1000,"mobina": 1, "Reza":1000})
+# ranges = client.zrange("grades", 0, -1)
+# print(ranges)
+# test = client.zrevrange("grades", 0, -1)
+# print(test)
+#
+# grades = client.zrevrange("grades", 0, -1, withscores=True)
+# print(grades)
+#
+# score = client.zscore("grades", "SAHAR")
+# print(score)
+#
+# reza_rank = client.zrank("grades", "Reza")
+# print(reza_rank)
+#
+# reza_rank_revers = client.zrevrank("grades", "Reza")
+# print(reza_rank_revers)
+#
+# between_range = client.zrangebyscore("grades", "-inf", 600)
+# print(between_range)
+#
+# client.zrem("grades", "SAHAR")
+# client.zadd("grades", {
+#     "setayesh":600,
+#     "ghorbaghe": 900,
+#     "elena": 1800
+# })
+# client.zrem("grades", "elena", "setayesh")
+
+# client.zremrangebyscore("grades","-inf", 500)
+# print(client.zcard("grades"))
+
+# print(client.zcount("grades", 800, 1000))
