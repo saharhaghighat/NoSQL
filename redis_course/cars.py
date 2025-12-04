@@ -1,10 +1,10 @@
 import redis
 
 
-class QueraCar:
+class Car:
     def __init__(self):
         self.redis_client = redis.StrictRedis(host='localhost', port=6379, decode_responses=True)
-        self.key = "queras_car_nodes"
+        self.key = "car_nodes"
 
     def add_node(self, node_id, latitude, longitude):
         self.redis_client.geoadd(self.key, (longitude, latitude, node_id))
