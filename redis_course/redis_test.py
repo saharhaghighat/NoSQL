@@ -1,7 +1,9 @@
 import time
 
 import redis
-client = redis.Redis(host="localhost", port=6379, decode_responses=True)
+
+# client = redis.Redis(host="localhost", port=6379, decode_responses=True)
+client = redis.StrictRedis(host='localhost', port=6379, decode_responses=True)
 
 # Set and Get and Delete
 # client.set("personame", "Sahar")
@@ -245,3 +247,56 @@ client = redis.Redis(host="localhost", port=6379, decode_responses=True)
 # print(client.geohash("cities", "Tehran"))
 
 # client.zrem("cities", "Tehran")
+
+
+
+# -------------------------------------------------------------------
+
+#RedisBloom
+
+# from redisbloom.client import Client
+#
+# client = Client(host='localhost', port=6379)
+
+# client.bfCreate('filters:bloom', 0.01, 1000)
+# client.execute_command('BF.RESERVE', 'filters:bloom', 0.01, 1000)
+# client.bfAdd("filters:bloom", "blue")
+# client.bfAdd("filters:bloom", "red")
+# client.bfMAdd("filters:bloom", "purple", "yellow")
+# print(client.bfExists("filters:bloom", "blue"))
+
+# print(client.bfExists("filters:bloom", "black"))
+# print(client.bfMExists("filters:bloom", "yellow", "black", "red"))
+
+
+# print(redis_client.execute_command("BF.INFO",'filters:bloom'))
+
+
+# client.execute_command('CF.RESERVE', 'filters:cuckoo', 1000)
+# client.execute_command("CF.ADD", 'filters:cuckoo', "red")
+# client.execute_command("CF.ADD", 'filters:cuckoo', "blue")
+
+# print(client.execute_command("CF.EXISTS",'filters:cuckoo' , "blue"))
+# print(client.execute_command("CF.EXISTS",'filters:cuckoo', "black"))
+
+# client.execute_command("CF.DEL",'filters:cuckoo' , "blue" )
+# print(client.execute_command("CF.EXISTS",'filters:cuckoo' , "blue"))
+
+# # client.execute_command("CMS.INITBYPROB", "sketch", 0.001, 0.01)
+# client.execute_command(
+#     "CMS.INCRBY",
+#     "sketch",
+#     "nosql", 250,
+#     "python", 500
+# )
+
+# print(client.execute_command("CMS.QUERY", "sketch", "nosql"))
+# print(client.execute_command("CMS.INFO", "sketch"))
+
+# client.pfadd("hll","user1", "user2", "user3")
+# print(client.pfcount("hll"))
+# client.pfadd("hll2","user3", "user4", "user5")
+# print(client.pfcount("hll2"))
+#
+# client.pfmerge("hall", "hll2", "hll")
+# print(client.pfcount("hall"))
