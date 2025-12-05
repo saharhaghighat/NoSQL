@@ -6,6 +6,9 @@ class Neo4jDatabase:
     def __exit__(self, exc_type, exc_val, traceback):
         self.driver.close()
 
+    def __enter__(self):
+        return self
+
     def execute_query(self, query, parameters=None):
         with self.driver.session() as session:
             result =session.run(query, parameters=parameters or {})
