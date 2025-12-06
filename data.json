@@ -1,0 +1,776 @@
+[
+    {
+        "customer_name": "Narges",
+        "items": [
+            "camera",
+            "monitor",
+            "shoes",
+            "perfume",
+            "headphones"
+        ],
+        "order_priority": 3,
+        "price": 395.31,
+        "discount": 14.66,
+        "date_ordered": "2025-04-11",
+        "city": "Tabriz",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Zahra",
+        "items": [
+            "notebook",
+            "laptop",
+            "carpet",
+            "backpack"
+        ],
+        "order_priority": 3,
+        "price": 1939.94,
+        "discount": 561.98,
+        "date_ordered": "2025-04-04",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "headphones",
+            "perfume",
+            "tablet",
+            "shirt"
+        ],
+        "order_priority": 4,
+        "price": 1885.57,
+        "discount": 283.36,
+        "date_ordered": "2025-04-21",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "monitor",
+            "tablet",
+            "keyboard"
+        ],
+        "order_priority": 3,
+        "price": 133.91,
+        "discount": 19.48,
+        "date_ordered": "2025-04-02",
+        "city": "Shiraz",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "book",
+            "perfume",
+            "headphones"
+        ],
+        "order_priority": 5,
+        "price": 1772.18,
+        "discount": 454.77,
+        "date_ordered": "2025-04-11",
+        "city": "Tabriz",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "perfume",
+            "headphones",
+            "wallet"
+        ],
+        "order_priority": 5,
+        "price": 1047.85,
+        "discount": 152.88,
+        "date_ordered": "2025-04-09",
+        "city": "Shiraz",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "wallet",
+            "laptop",
+            "watch",
+            "shirt",
+            "keyboard"
+        ],
+        "order_priority": 4,
+        "price": 1189.06,
+        "discount": 132.3,
+        "date_ordered": "2025-04-18",
+        "city": "Tehran",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Erfan",
+        "items": [
+            "laptop",
+            "perfume",
+            "keyboard",
+            "monitor",
+            "shoes"
+        ],
+        "order_priority": 3,
+        "price": 1633.49,
+        "discount": 162.47,
+        "date_ordered": "2025-04-20",
+        "city": "Isfahan",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Erfan",
+        "items": [
+            "camera",
+            "tablet"
+        ],
+        "order_priority": 3,
+        "price": 1959.44,
+        "discount": 481.32,
+        "date_ordered": "2025-04-08",
+        "city": "Shiraz",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "monitor",
+            "wallet",
+            "backpack",
+            "tablet"
+        ],
+        "order_priority": 1,
+        "price": 583.5,
+        "discount": 67.53,
+        "date_ordered": "2025-04-15",
+        "city": "Shiraz",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "perfume",
+            "phone"
+        ],
+        "order_priority": 4,
+        "price": 938.68,
+        "discount": 46.08,
+        "date_ordered": "2025-04-21",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Pouria",
+        "items": [
+            "wallet",
+            "laptop",
+            "phone"
+        ],
+        "order_priority": 3,
+        "price": 1987.29,
+        "discount": 138.02,
+        "date_ordered": "2025-04-12",
+        "city": "Tehran",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "monitor",
+            "notebook",
+            "backpack",
+            "laptop",
+            "carpet"
+        ],
+        "order_priority": 1,
+        "price": 674.32,
+        "discount": 15.11,
+        "date_ordered": "2025-04-16",
+        "city": "Isfahan",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "monitor",
+            "laptop"
+        ],
+        "order_priority": 2,
+        "price": 353.33,
+        "discount": 39.74,
+        "date_ordered": "2025-04-12",
+        "city": "Tabriz",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "tablet",
+            "watch",
+            "phone",
+            "keyboard"
+        ],
+        "order_priority": 2,
+        "price": 978.14,
+        "discount": 238.44,
+        "date_ordered": "2025-04-21",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "tablet",
+            "monitor",
+            "watch",
+            "notebook"
+        ],
+        "order_priority": 1,
+        "price": 1064.53,
+        "discount": 86.9,
+        "date_ordered": "2025-04-07",
+        "city": "Tabriz",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "notebook",
+            "phone"
+        ],
+        "order_priority": 5,
+        "price": 1537.1,
+        "discount": 165.78,
+        "date_ordered": "2025-04-22",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Zahra",
+        "items": [
+            "headphones",
+            "notebook",
+            "shirt",
+            "wallet",
+            "shoes"
+        ],
+        "order_priority": 4,
+        "price": 1988.94,
+        "discount": 130.74,
+        "date_ordered": "2025-04-15",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "book",
+            "perfume"
+        ],
+        "order_priority": 3,
+        "price": 1779.18,
+        "discount": 395.45,
+        "date_ordered": "2025-04-15",
+        "city": "Tabriz",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Mohammad",
+        "items": [
+            "headphones",
+            "watch",
+            "book",
+            "wallet",
+            "phone"
+        ],
+        "order_priority": 4,
+        "price": 195.65,
+        "discount": 5.56,
+        "date_ordered": "2025-04-20",
+        "city": "Tehran",
+        "stage": "delivering",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Pouria",
+        "items": [
+            "book",
+            "shoes",
+            "notebook"
+        ],
+        "order_priority": 5,
+        "price": 495.43,
+        "discount": 72.25,
+        "date_ordered": "2025-04-05",
+        "city": "Tabriz",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "monitor",
+            "book",
+            "backpack",
+            "shirt"
+        ],
+        "order_priority": 3,
+        "price": 804.53,
+        "discount": 193.68,
+        "date_ordered": "2025-04-07",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "perfume",
+            "carpet"
+        ],
+        "order_priority": 4,
+        "price": 788.56,
+        "discount": 189.71,
+        "date_ordered": "2025-04-14",
+        "city": "Karaj",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Mohammad",
+        "items": [
+            "wallet",
+            "shirt",
+            "laptop",
+            "keyboard"
+        ],
+        "order_priority": 4,
+        "price": 475.45,
+        "discount": 97.78,
+        "date_ordered": "2025-04-02",
+        "city": "Karaj",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Erfan",
+        "items": [
+            "phone",
+            "shoes",
+            "laptop",
+            "perfume"
+        ],
+        "order_priority": 3,
+        "price": 1272.49,
+        "discount": 36.72,
+        "date_ordered": "2025-04-12",
+        "city": "Isfahan",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "watch",
+            "phone",
+            "camera"
+        ],
+        "order_priority": 5,
+        "price": 1170.65,
+        "discount": 166.09,
+        "date_ordered": "2025-04-15",
+        "city": "Shiraz",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "backpack",
+            "shirt",
+            "monitor"
+        ],
+        "order_priority": 3,
+        "price": 835.48,
+        "discount": 70.52,
+        "date_ordered": "2025-04-10",
+        "city": "Tehran",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "notebook",
+            "carpet",
+            "backpack"
+        ],
+        "order_priority": 2,
+        "price": 787.07,
+        "discount": 32.13,
+        "date_ordered": "2025-04-10",
+        "city": "Karaj",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "backpack",
+            "book",
+            "wallet"
+        ],
+        "order_priority": 2,
+        "price": 860.07,
+        "discount": 160.74,
+        "date_ordered": "2025-04-04",
+        "city": "Isfahan",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Mohammad",
+        "items": [
+            "shoes",
+            "monitor",
+            "headphones",
+            "camera"
+        ],
+        "order_priority": 1,
+        "price": 860.58,
+        "discount": 166.17,
+        "date_ordered": "2025-04-05",
+        "city": "Tehran",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Zahra",
+        "items": [
+            "wallet",
+            "tablet",
+            "perfume"
+        ],
+        "order_priority": 5,
+        "price": 1836.39,
+        "discount": 370.72,
+        "date_ordered": "2025-04-13",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "camera",
+            "wallet",
+            "backpack",
+            "phone"
+        ],
+        "order_priority": 5,
+        "price": 1498.66,
+        "discount": 153.74,
+        "date_ordered": "2025-04-17",
+        "city": "Tabriz",
+        "stage": "delivering",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Mohammad",
+        "items": [
+            "book",
+            "shirt",
+            "notebook",
+            "keyboard",
+            "headphones"
+        ],
+        "order_priority": 3,
+        "price": 796.25,
+        "discount": 6.24,
+        "date_ordered": "2025-04-02",
+        "city": "Isfahan",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "notebook",
+            "shoes",
+            "phone",
+            "watch",
+            "shirt"
+        ],
+        "order_priority": 5,
+        "price": 1038.86,
+        "discount": 73.8,
+        "date_ordered": "2025-04-07",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Pouria",
+        "items": [
+            "wallet",
+            "backpack",
+            "camera",
+            "book"
+        ],
+        "order_priority": 5,
+        "price": 1478.11,
+        "discount": 33.67,
+        "date_ordered": "2025-04-13",
+        "city": "Isfahan",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "carpet",
+            "shoes",
+            "wallet"
+        ],
+        "order_priority": 5,
+        "price": 749.83,
+        "discount": 81.05,
+        "date_ordered": "2025-04-14",
+        "city": "Karaj",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "tablet",
+            "phone"
+        ],
+        "order_priority": 2,
+        "price": 886.97,
+        "discount": 212.54,
+        "date_ordered": "2025-04-03",
+        "city": "Tehran",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "shirt",
+            "tablet",
+            "camera",
+            "perfume"
+        ],
+        "order_priority": 5,
+        "price": 744.73,
+        "discount": 45.17,
+        "date_ordered": "2025-04-03",
+        "city": "Shiraz",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Kian",
+        "items": [
+            "wallet",
+            "headphones",
+            "monitor",
+            "watch",
+            "camera"
+        ],
+        "order_priority": 5,
+        "price": 292.83,
+        "discount": 84.26,
+        "date_ordered": "2025-04-17",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Pouria",
+        "items": [
+            "backpack",
+            "notebook"
+        ],
+        "order_priority": 4,
+        "price": 1130.29,
+        "discount": 176.14,
+        "date_ordered": "2025-04-10",
+        "city": "Karaj",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Maryam",
+        "items": [
+            "shoes",
+            "notebook",
+            "backpack",
+            "wallet"
+        ],
+        "order_priority": 5,
+        "price": 1011.78,
+        "discount": 142.32,
+        "date_ordered": "2025-04-02",
+        "city": "Tabriz",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Mohammad",
+        "items": [
+            "laptop",
+            "shirt",
+            "notebook",
+            "headphones",
+            "camera"
+        ],
+        "order_priority": 2,
+        "price": 1542.7,
+        "discount": 93.64,
+        "date_ordered": "2025-04-16",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Zahra",
+        "items": [
+            "backpack",
+            "book"
+        ],
+        "order_priority": 1,
+        "price": 1476.58,
+        "discount": 148.18,
+        "date_ordered": "2025-04-20",
+        "city": "Isfahan",
+        "stage": "processing",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Narges",
+        "items": [
+            "watch",
+            "tablet",
+            "phone",
+            "shoes"
+        ],
+        "order_priority": 1,
+        "price": 569.79,
+        "discount": 166.47,
+        "date_ordered": "2025-04-07",
+        "city": "Tehran",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Erfan",
+        "items": [
+            "backpack",
+            "monitor",
+            "notebook",
+            "camera"
+        ],
+        "order_priority": 4,
+        "price": 960.0,
+        "discount": 3.4,
+        "date_ordered": "2025-04-13",
+        "city": "Karaj",
+        "stage": "processing",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Pouria",
+        "items": [
+            "backpack",
+            "watch"
+        ],
+        "order_priority": 5,
+        "price": 1223.27,
+        "discount": 88.11,
+        "date_ordered": "2025-04-02",
+        "city": "Shiraz",
+        "stage": "delivering",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Erfan",
+        "items": [
+            "backpack",
+            "shoes",
+            "watch"
+        ],
+        "order_priority": 4,
+        "price": 737.66,
+        "discount": 74.0,
+        "date_ordered": "2025-04-10",
+        "city": "Tehran",
+        "stage": "delivering",
+        "is_order_warrantied": false
+    },
+    {
+        "customer_name": "Zahra",
+        "items": [
+            "backpack",
+            "laptop"
+        ],
+        "order_priority": 1,
+        "price": 448.63,
+        "discount": 110.75,
+        "date_ordered": "2025-04-10",
+        "city": "Tabriz",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "camera",
+            "tablet",
+            "phone"
+        ],
+        "order_priority": 3,
+        "price": 1470.14,
+        "discount": 63.83,
+        "date_ordered": "2025-04-09",
+        "city": "Tabriz",
+        "stage": "delivered",
+        "is_order_warrantied": true
+    },
+    {
+        "customer_name": "Matin",
+        "items": [
+            "camera",
+            "notebook",
+            "monitor"
+        ],
+        "order_priority": 5,
+        "price": 1021.41,
+        "discount": 45.36,
+        "date_ordered": "2025-04-09",
+        "city": "Tehran",
+        "stage": "delivered",
+        "is_order_warrantied": false
+    }
+]
