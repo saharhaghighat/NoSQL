@@ -1,0 +1,11 @@
+dnspython==2.8.0
+hiredis==2.4.0
+neo4j==6.0.3
+pymongo==4.15.5
+pymongo-amplidata==3.6.0.post1
+pytz==2025.2
+redis==3.5.3
+rmtest==0.7.0
+setuptools==80.9.0
+six==1.17.0
+wheel==0.45.1
