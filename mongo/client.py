@@ -52,6 +52,12 @@ cursor_multiple = collection.find().sort([
 print("Sort by 'age' and 'name':", list(cursor_multiple))
 
 
+# Update one document
+result = collection.update_one(
+    {"name": "Ali"},
+    {"$set": {"age": 26}}
+)
+print("Matched:", result.matched_count, "  Updated:", result.modified_count)
 
 client.close()
 
