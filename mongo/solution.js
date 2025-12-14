@@ -28,40 +28,30 @@ async function run() {
     // Query 3: Find orders where customer_name is "Erfan" and "laptop" is in items, add "wireless mouse" to items
     const query3Result = await db.collection("orders").updateMany(
       { customer_name: "Erfan", items: "laptop" },
-      { $push: { items: "wireless mouse" } }
+      { $addToSet: { items: "wireless mouse" } }
     );
     console.log("Query 3 result:", query3Result);
 
     // Query 4: Find users with verified email and balance > 300, increase balance by 20%, increase total_purchases by 2, record last_update
     const query4Result = await db.collection("users").updateMany(
       { email_verified: true, balance: { $gt: 300 } },
-      [
-        {
-          $set: {
-            balance: { $multiply: ["$balance", 1.2] },
-            total_purchases: { $add: ["$total_purchases", 2] },
-            last_update: new Date()
-          }
-        }
-      ]
+      {
+        $mul: { balance: 1.2 },
+        $inc: { total_purchases: 2 },
+        $currentDate: { last_update: true }
+      }
     );
     console.log("Query 4 result:", query4Result);
 
     // Query 5: For orders of "Narges" with stage "delivering", remove discount field, rename is_order_warrantied to warranty_status, increase price by 10%, record last_modified
     const query5Result = await db.collection("orders").updateMany(
       { customer_name: "Narges", stage: "delivering" },
-      [
-        {
-          $set: {
-            price: { $multiply: ["$price", 1.1] },
-            warranty_status: "$is_order_warrantied",
-            last_modified: new Date()
-          }
-        },
-        {
-          $unset: ["discount", "is_order_warrantied"]
-        }
-      ]
+      {
+        $unset: { discount: "" },
+        $mul: { price: 1.1 },
+        $rename: { is_order_warrantied: "warranty_status" },
+        $currentDate: { last_modified: true }
+      }
     );
     console.log("Query 5 result:", query5Result);
 
