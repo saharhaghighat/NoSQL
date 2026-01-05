@@ -1,0 +1,77 @@
+version: "3.3"
+
+# Do not forget that the only available 
+# elasticsearch image is accessible with the following url:
+# ghcr.io/qregistry/standard/elasticsearch:8.17.6
+
+# Do not forget that the only available 
+# kibana image is accessible with the following url:
+# ghcr.io/qregistry/standard/kibana:8.17.6
+
+# Do not forget that the only available 
+# logstash image is accessible with the following url:
+# ghcr.io/qregistry/standard/logstash:8.17.6
+
+networks:
+  elastic:
+    driver: bridge
+
+volumes:
+  elasticsearch-data:
+    driver: local
+
+services:
+  elasticsearch:
+    image: ghcr.io/qregistry/standard/elasticsearch:8.17.6
+    container_name: elasticsearch
+    environment:
+      discovery.type: single-node
+      ELASTIC_PASSWORD: changeme
+      ES_JAVA_OPTS: "-Xms2g -Xmx2g"
+      xpack.security.enabled: "false"
+      xpack.security.http.ssl.enabled: "false"
+      network.host: 0.0.0.0
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch-data:/usr/share/elasticsearch/data
+    networks:
+      - elastic
+
+  kibana:
+    image: ghcr.io/qregistry/standard/kibana:8.17.6
+    container_name: kibana
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+      ELASTICSEARCH_USERNAME: kibana_system
+      ELASTICSEARCH_PASSWORD: changeme
+      SERVER_NAME: kibana
+      SERVER_HOST: 0.0.0.0
+      xpack.encryptedSavedObjects.encryptionKey: some_secure_random_key_123456
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - elastic
+
+  logstash:
+    image: ghcr.io/qregistry/standard/logstash:8.17.6
+    container_name: logstash
+    environment:
+      LS_JAVA_OPTS: "-Xmx1g -Xms1g"
+      ELASTICSEARCH_HOST: elasticsearch
+      ELASTICSEARCH_PORT: 9200
+      ELASTICSEARCH_USERNAME: logstash_system
+      ELASTICSEARCH_PASSWORD: changeme
+      xpack.monitoring.enabled: "false"
+    ports:
+      - "5044:5044"
+      - "9600:9600"
+    volumes:
+      - ./logstash/pipeline:/usr/share/logstash/pipeline
+    depends_on:
+      - elasticsearch
+    restart: always
+    networks:
+      - elastic
