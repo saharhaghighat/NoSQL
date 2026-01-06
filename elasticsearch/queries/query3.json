@@ -1,0 +1,21 @@
+{
+  "assignment_name": "Data Structures - Binary Trees",
+  "course": "Programming 201",
+  "student": "Reza",
+  "status": "completed",
+  "score": 87,
+  "submitted_at": "2025-11-21T09:45:00Z",
+  "tags": ["trees", "algorithms", "python"],
+  "comments": [
+    {
+      "reviewer": "Dr. Sara",
+      "comment": "Improve recursion efficiency",
+      "approved": false
+    }
+  ],
+  "metadata": {
+    "attempts": 1,
+    "priority": "high",
+    "time_spent_min": 150
+  }
+}

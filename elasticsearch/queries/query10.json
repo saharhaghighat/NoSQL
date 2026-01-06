@@ -1,0 +1,15 @@
+{
+  "assignment_name": "RNN Sequence Prediction",
+  "course": "AI Advanced",
+  "student": "Leila",
+  "status": "pending",
+  "score": null,
+  "submitted_at": "2025-11-21T12:30:00Z",
+  "tags": ["AI", "RNN", "sequence modeling"],
+  "comments": [],
+  "metadata": {
+    "attempts": 1,
+    "priority": "high",
+    "time_spent_min": 150
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "assignment_name": "Machine Learning and Linear Regression",
+  "course": "AI Fundamentals",
+  "student": "Mina",
+  "status": "pending",
+  "score": null,
+  "submitted_at": "2025-11-21T09:00:00Z",
+  "tags": ["AI", "ML", "regression"],
+  "comments": [],
+  "metadata": {
+    "attempts": 2,
+    "priority": "medium",
+    "time_spent_min": 90
+  }
+}

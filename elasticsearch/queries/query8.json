@@ -1,0 +1,26 @@
+{
+  "assignment_name": "CNN for Image Classification",
+  "course": "AI Advanced",
+  "student": "Kia",
+  "status": "completed",
+  "score": 97,
+  "submitted_at": "2025-11-21T11:45:00Z",
+  "tags": ["AI", "CNN", "image processing"],
+  "comments": [
+    {
+      "reviewer": "Dr. Amir",
+      "comment": "Excellent model architecture",
+      "approved": true
+    },
+    {
+      "reviewer": "TA",
+      "comment": "Check padding parameters",
+      "approved": true
+    }
+  ],
+  "metadata": {
+    "attempts": 1,
+    "priority": "high",
+    "time_spent_min": 220
+  }
+}

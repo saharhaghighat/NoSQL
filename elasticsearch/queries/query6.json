@@ -1,0 +1,21 @@
+{
+  "assignment_name": "Gradient Descent Implementation",
+  "course": "AI Advanced",
+  "student": "Omid",
+  "status": "completed",
+  "score": 88,
+  "submitted_at": "2025-11-21T11:00:00Z",
+  "tags": ["AI", "optimization", "gradient descent"],
+  "comments": [
+    {
+      "reviewer": "Dr. Amir",
+      "comment": "Good approach, check learning rate",
+      "approved": true
+    }
+  ],
+  "metadata": {
+    "attempts": 2,
+    "priority": "high",
+    "time_spent_min": 200
+  }
+}
