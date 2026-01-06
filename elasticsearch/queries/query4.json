@@ -1,0 +1,26 @@
+{
+  "assignment_name": "Neural Networks - Forward Pass",
+  "course": "AI Fundamentals",
+  "student": "Leila",
+  "status": "completed",
+  "score": 95,
+  "submitted_at": "2025-11-21T10:15:00Z",
+  "tags": ["AI", "neural networks", "forward pass"],
+  "comments": [
+    {
+      "reviewer": "Dr. Amir",
+      "comment": "Excellent calculation",
+      "approved": true
+    },
+    {
+      "reviewer": "TA",
+      "comment": "Consider edge cases",
+      "approved": true
+    }
+  ],
+  "metadata": {
+    "attempts": 1,
+    "priority": "high",
+    "time_spent_min": 180
+  }
+}

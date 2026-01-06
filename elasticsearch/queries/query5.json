@@ -1,0 +1,21 @@
+{
+  "assignment_name": "Exception Handling",
+  "course": "Programming 101",
+  "student": "Sara",
+  "status": "resubmitted",
+  "score": 78,
+  "submitted_at": "2025-11-21T10:30:00Z",
+  "tags": ["python", "exceptions", "error handling"],
+  "comments": [
+    {
+      "reviewer": "Dr. Sara",
+      "comment": "Better error messages needed next time",
+      "approved": false
+    }
+  ],
+  "metadata": {
+    "attempts": 3,
+    "priority": "medium",
+    "time_spent_min": 110
+  }
+}

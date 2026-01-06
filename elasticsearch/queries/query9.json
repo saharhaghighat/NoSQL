@@ -1,0 +1,21 @@
+{
+  "assignment_name": "File I/O Operations",
+  "course": "Programming 101",
+  "student": "Amir",
+  "status": "completed",
+  "score": 85,
+  "submitted_at": "2025-11-21T12:00:00Z",
+  "tags": ["python", "file handling"],
+  "comments": [
+    {
+      "reviewer": "Dr. Sara",
+      "comment": "Good structure, add exception handling",
+      "approved": true
+    }
+  ],
+  "metadata": {
+    "attempts": 1,
+    "priority": "medium",
+    "time_spent_min": 100
+  }
+}
